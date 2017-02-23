@@ -1,0 +1,19 @@
+.modal-dialog {
+  max-width: calc(100% - 60px);
+  width: 1090px;
+}
+
+.modal-body {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+iframe {
+  &.ready {
+    height: 4200px;
+    visibility: visible;
+    width: 935px;
+  }
+
+  visibility: hidden;
+}
